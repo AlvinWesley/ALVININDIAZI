@@ -1,0 +1,142 @@
+*{
+    padding :0;
+    margin:0;
+  
+}
+
+.skeleton{
+    display:flex;
+    flex-wrap: wrap;
+    height:auto;
+    width:100%;
+    margin:0;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.backbone{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    margin:10px;
+    display:flex;
+    height:12cm;
+    width:20cm;
+    border-radius: 10px;
+   box-shadow: 1px rgb(224, 11, 11);
+    background-image: url("coffee pictures/65837.jpg");
+    background-size: cover;
+    overflow:hidden;
+}
+.backbone:hover{
+    transition:0.5s ease-in-out;
+    height:20cm;
+    width:30cm;
+}
+.bodyheader {
+    border:1px solid #c5d11a;
+font-size:70px;
+transition: 0.3s ease-in-out;
+color:rgba(172, 59, 15, 0.747);
+margin: 0;
+padding:0;
+}
+/*.bodyheader:hover{
+    font-size:30px;
+    color:rgba(172, 59, 15, 0.747);
+    margin: 0;
+padding:0;
+height:fit-content;
+    }*/
+
+body{
+    background-image: url("background gradient/wp6453105-geometric-gradient-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+   
+}
+.backgroundheader{
+    background-image:linear-gradient(to left,rgba(58, 4, 4, 0.986),brown,transparent);
+    display: flex;
+    justify-content: space-between;
+  
+    padding:10px;
+    margin-bottom: 10px;
+  
+}
+.backgroundheader:hover{
+    transition: 25s ease-in-out;
+    background-image:linear-gradient(to left,rgba(37, 20, 3, 0.986),rgb(143, 16, 48));
+}
+.backgroundheader .headersocialmedia{
+   
+    display: flex;
+    justify-content: flex-start;
+padding: 5px;
+margin:3px;
+width:40%;
+
+}
+hr{
+    border:3px solid rgba(150, 62, 47, 0.658);
+}
+.backgroundheader .headersocialmedia .pages{
+    height:40px;
+    width:40px;
+    margin:2px;
+    padding:2px;
+    border-radius: 10px;
+   
+    
+
+}
+.backgroundheader .headersocialmedia .pages img{
+    padding: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width:40px; 
+    transform:rotate(45deg);
+    /*box-shadow: 0 0 1px 1px #fe6022,0 0 2px 2px #fe6022c0,0 0 2px 2px #fe602285;*/
+}
+  #fb :hover{
+    transition: 0.2s ease-in-out; 
+    background-color: rgba(0, 0, 255, 0.404);
+    transform:rotate(0);
+}
+#ig :hover{
+    transition: 0.2s ease-in-out; 
+    background-color: rgba(206, 195, 188, 0.438);
+    transform:rotate(0);
+}
+#wa :hover{
+   transition: 0.2s ease-in-out; 
+    border-radius:100%;
+    background-color: rgba(41, 255, 13, 0.411);
+    transform:rotate(0);
+}
+.backgroundheader .options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: right;
+    overflow: hidden;
+
+padding:5px;
+margin:3px;
+width:50%;
+}
+.backgroundheader .options ul li{
+   display: inline; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding:5px;
+font-weight: 600;
+font-size: larger;
+}
+.backgroundheader .options ul li a{
+    color:#16ccc3be;
+    text-decoration: none;
+}
